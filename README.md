@@ -2,6 +2,7 @@ file structure:
 
 xerox-getters/
 ├── .gitattributes
+
 ├── .gitignore
 ├── HELP.md
 ├── mvnw
