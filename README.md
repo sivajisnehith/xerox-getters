@@ -1,3 +1,8 @@
+This is only logic created for the real problem which we had faced in our university THE XEROX GETTERS 
+few months back there is a situation where we have to give money to the days scholars to get the printouts and so that i have created a 3 way communication where user can trigger requests for printouts and also 
+delivery man and the final xerox shop owners
+
+
 ## 📁 Project Structure
 
 ```text
