@@ -1,7 +1,26 @@
-This is only logic created for the real problem which we had faced in our university THE XEROX GETTERS 
-few months back there is a situation where we have to give money to the days scholars to get the printouts and so that i have created a 3 way communication where user can trigger requests for printouts and also 
-delivery man and the final xerox shop owners
 
+# Xerox Getters: 3-Way Hyperlocal Delivery Engine
+
+## 📦 About the Project
+**Xerox Getters** is a Q-commerce (Quick Commerce) platform designed to handle document printing and delivery. Inspired by models like **Blinkit**, this application manages a complex 3-way marketplace between **Customers**, **Xerox Centers (Vendors)**, and **Getters (Delivery Partners)**.
+
+## 💻 Technical Architecture
+The entire core logic is built using **Pure Java**, focusing on robust state management and concurrent processing.
+
+* **Logic Engine:** A custom-built Java State Machine manages the transition from "Order Placed" → "Printing" → "Pick-up" → "Delivered."
+* **Concurrency:** Utilizes Java `Multithreading` to handle real-time status updates across all three parties simultaneously.
+* **Efficiency:** Designed with an optimized search algorithm to find the nearest "Getter" to a specific Xerox Hub.
+
+
+
+## 🔄 The 3-Way Handshake
+1.  **Customer:** Uploads PDF/Docs and sets printing specs.
+2.  **Xerox Center:** Accepts the job, prints, and triggers the "Ready" state.
+3.  **Getter:** Receives the location of the hub and the customer, completing the delivery loop.
+
+## 🛠️ Tech Stack
+* **Language:** Java (Core Logic, Collections, Multithreading)
+* **Model:** 3-Party Hyperlocal Marketplace
 
 ## 📁 Project Structure
 
